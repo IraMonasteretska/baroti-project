@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+
+// font-family: 'Cormorant Garamond', serif;
+// font-family: 'Frank Ruhl Libre', serif;
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7sq4k8');
+    src: url('../fonts/icomoon.eot?7sq4k8#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7sq4k8') format('truetype'),
+        url('../fonts/icomoon.woff?7sq4k8') format('woff'),
+        url('../fonts/icomoon.svg?7sq4k8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    // font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tel:before {
+    content: "\e901";
+    color: #fff;
+    font-family: 'icomoon' !important;
+}
+
+.icon-mail:before {
+    content: "\e902";
+    color: #fff;
+    font-family: 'icomoon' !important;
+}
+
+.icon-burger:before {
+    content: "\e903";
+    color: #fff;
+    font-family: 'icomoon' !important;
+}
+
+.icon-arrow-top:before {
+    content: "\e904";
+    color: #bdbdbd;
+    font-family: 'icomoon' !important;
+}
+
+.icon-arrow-diag:before {
+    content: "\e905";
+    color: #ef7a00;
+    font-family: 'icomoon' !important;
+}
+
+@media(min-width:1400px) {
+    .container {
+        max-width: 1370px;
+    }
+}
+
+
+
+// mixins
+@mixin coverimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@mixin orange-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 48px;
+    min-width: 198px;
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    background: #EF7A00;
+    transition: .3s;
+    text-decoration: none;
+
+    &:hover {
+        background: #cf6a00;
+        color: #fff;
+        animation: pulse 2s infinite;
+        -webkit-animation: pulse 2s infinite;
+    }
+}
+
+@mixin black-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 48px;
+    min-width: 198px;
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    background: rgb(33, 33, 33);
+    transition: .3s;
+    text-decoration: none;
+
+    &:hover {
+        background: #424242;
+        color: #fff;
+        animation: pulse1 2s infinite;
+        -webkit-animation: pulse1 2s infinite;
+    }
+}
+
+// generals
+body {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+@keyframes pulse {
+
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(239, 122, 0, .5);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 15px rgba(239, 122, 0, 0);
+    }
+
+}
+
+@keyframes pulse1 {
+
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(33, 33, 33, .2);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 15px rgba(33, 33, 33, 0);
+    }
+
+}
+
+h3 {
+    color: #000;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 150%;
+    position: relative;
+}
+
+// animation: pulse 2s infinite;
+// -webkit-animation: pulse 2s infinite;
+
+.orangebtn {
+    @include orange-btn;
+}
+
+.blackbtn {
+    @include black-btn;
+}

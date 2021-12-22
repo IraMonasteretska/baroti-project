@@ -1,0 +1,773 @@
+@media(max-width:1400.8px) {
+    .menusection__wrapcont .menusection__list ul li a {
+        font-size: 2.2rem;
+    }
+
+    .menusection__wrapcont .menusection__list ul li {
+        margin-bottom: 22px;
+    }
+
+    .menusection__wrapcont .menusection__list ul li:nth-last-child(-n+3) a {
+        font-size: 1rem;
+    }
+
+    .menusection__wrapcont .menusection__list ul li:nth-last-child(-n+3) {
+        margin-right: 40px;
+    }
+
+
+
+}
+
+@media(max-width:1199.8px) {
+    html {
+        font-size: 14px;
+    }
+
+    .whybaroti {
+        padding: 70px 0 30px;
+    }
+
+    .whybaroti h3 {
+        margin-bottom: 40px;
+
+        &:after {
+            bottom: -21px;
+        }
+    }
+
+    .servicebox .servicebox__info .arrow {
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        top: 15px;
+    }
+
+    .servicebox .servicebox__info {
+        padding: 30px 20px 20px 20px;
+    }
+
+    .about-baroti {
+        padding: 60px 0 70px 0;
+    }
+
+    .contact-formwrap {
+        padding: 50px 60px;
+        background: #131313;
+    }
+
+    footer.footer .footinfwrap .footinfright p {
+        font-size: 1.3rem;
+    }
+
+    .welcomescreen {
+        min-height: 350px;
+    }
+
+    .welcomescreen .welcomescreen__content {
+        padding-top: 180px;
+        padding-bottom: 40px;
+    }
+
+    .tobottom {
+        bottom: 20px;
+    }
+
+    .homedes-sect {
+        padding: 70px 0 0 0;
+    }
+
+    .hd-infoblock__descr {
+        padding-top: 0;
+    }
+
+    .hd-infoblock__img,
+    .hd-infoblock:nth-child(2n) .row .hd-infoblock__img {
+        transform: none;
+    }
+
+    .welcomescreen h1 {
+        font-size: 2.6rem;
+    }
+
+    .hd-infoblock {
+        margin-bottom: 50px;
+    }
+
+    .threecolssect {
+        padding: 70px 0;
+    }
+
+    .letsworktogether__illustration {
+        max-width: 450px;
+    }
+
+    .contact-content,
+    .contformsect {
+        padding: 70px 0;
+    }
+
+    .contformsect h3 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .contformsect-formwrap.contact-formwrap {
+        padding: 50px 60px 50px;
+    }
+
+    .mapwrapper {
+        height: 360px;
+    }
+
+    .about-content {
+        padding: 70px 0;
+    }
+
+    .about-content .about-content__ftext {
+        padding-top: 30px;
+    }
+
+    .accordeon__header {
+        font-size: 1.6rem;
+        padding: 20px 50px 20px 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about-baroti h3,
+    .about-baroti__pics {
+        margin-bottom: 40px;
+    }
+
+    .whybaroti .description,
+    .whybaroti h6 {
+        margin-bottom: 20px;
+    }
+
+    .orangebtn,
+    .blackbtn {
+        font-size: 1.2rem;
+    }
+
+    .servicebox .servicebox__info .descr {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:991.8px) {
+    .mainfirstsection {
+        min-height: 500px;
+    }
+
+    .header__rightsect .header__contacts li a {
+        font-size: 1.15rem;
+    }
+
+    .header__rightsect .header__contacts li+li {
+        margin-left: 20px;
+    }
+
+    .header__rightsect .burgerbtn {
+        margin-left: 30px;
+    }
+
+    .header__logo {
+        max-width: 170px;
+        flex: 0 0 170px;
+    }
+
+    .header__rightsect {
+        max-width: calc(100% - 170px);
+        flex: 0 0 calc(100% - 170px);
+    }
+
+    .about-baroti__pics .about-baroti__pic {
+        height: 340px;
+    }
+
+    footer.footer .footinfwrap {
+        flex-wrap: wrap;
+    }
+
+    footer.footer .footinfwrap .footinf__left,
+    footer.footer .footinfwrap .footinfright {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    footer.footer .footinfwrap .footinf__left {
+        order: 2;
+    }
+
+    footer.footer .footinfwrap .footinfright {
+        margin-top: 0;
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    footer.footer .footer__topsect {
+        padding-bottom: 50px;
+    }
+
+    .footer__bottomsect {
+        .col-lg-3 {
+            order: 2;
+        }
+
+        .col-lg-9 {
+            order: 1;
+        }
+    }
+
+    footer.footer .footer__bottomsect p {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    footer.footer {
+        padding: 60px 0 20px 0;
+    }
+
+    footer.footer .footinfwrap .footinf__left p.title {
+        margin-bottom: 10px;
+    }
+
+    footer.footer .footinfwrap .footinf__left ul li {
+        margin-bottom: 5px;
+    }
+
+    .hd-infoblock__img {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .homedes-sect {
+        padding: 50px 0 0 0;
+    }
+
+    .hd-infoblock:nth-child(2n) .row .hd-infoblock__descr {
+        padding-left: 0;
+    }
+
+    .hd-infoblock__descr,
+    .hd-infoblock:nth-child(2n) .row .hd-infoblock__descr {
+        max-width: 100%;
+    }
+
+    .threecolssect__col {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .threecolssect__col .title {
+        margin-bottom: 30px;
+
+        &:after {
+            bottom: -15px;
+        }
+    }
+
+    .letsworktogether__illustration {
+        display: none;
+    }
+
+    .letsworktogether__blackblock {
+        padding: 50px 0;
+    }
+
+    .letsworktogether {
+        padding-top: 0;
+    }
+
+    .threecolssect {
+        padding-bottom: 40px;
+    }
+
+    .twocolsect {
+        padding: 50px 0 22px;
+    }
+
+    .twocolsect .tittext {
+        margin-bottom: 20px;
+    }
+
+    .twocolsect .descrtext {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .interiordesign-slider {
+        margin-top: 20px;
+    }
+
+    .interiordesign-slider .swiper {
+        padding-top: 40px;
+    }
+
+    .twocolsect.p72 {
+        padding: 50px 0;
+    }
+
+    .homedes-sect__btn.interdes {
+        margin-top: 0;
+    }
+
+    .homedes-sect__btn.interdes {
+        margin-bottom: 20px;
+    }
+
+    .imgfullwidth {
+        height: 240px;
+    }
+
+    .threecolssect h4 {
+        margin-bottom: 30px;
+    }
+
+    .threecolssect__col .title br {
+        display: none;
+    }
+
+    .hd-infoblock {
+        margin-bottom: 30px;
+    }
+
+    .interiordesign-slider.disphomes {
+        padding-top: 50px;
+    }
+
+    .benefit-baroti {
+        margin-bottom: 30px;
+    }
+
+    .whyus-section .sticky-box {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .letsworktogether.upper {
+        margin-top: 0;
+    }
+
+    .qualities__box p {
+        font-size: 1rem;
+    }
+
+    .about-baroti {
+        padding-bottom: 50px;
+    }
+
+    .services-description {
+        padding: 50px 0;
+    }
+
+    .services-description p {
+        line-height: 160%;
+    }
+
+    .accordeon__header {
+        font-size: 1.4rem;
+        padding-left: 0;
+    }
+
+    .accordeon__header .accplusicon {
+        right: 0;
+    }
+
+    .accordeonsubbox .accordeonsubbox__title {
+        font-size: 1.2rem;
+    }
+
+    .accordeonsubbox .accordeonsubbox__body {
+        padding-bottom: 10px;
+    }
+
+    .accordeon__body {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    .threecolssect h4,
+    .whyus-section .sticky-box h1 {
+        font-size: 2rem;
+    }
+
+    .threecolssect__col .title {
+        font-size: 1.5rem;
+    }
+
+    .hd-infoblock__descr .descr,
+    .threecolssect__col .descr,
+    .letsworktogether__blackblock .bllink,
+    .whybaroti .description,
+    .whybaroti h6,
+    .twocolsect .descrtext,
+    .hd-infoblock__descr .descr,
+    .benefit__descr p,
+    .whyus-section .sticky-box .subtitle,
+    .whyus-section .sticky-box .descr,
+    .contact-content p,
+    .quotesect ul li,
+    .about-content .about-content__ftext,
+    .about-baroti__descrsect p,
+    .services-description p,
+    .accordeonsubbox .accordeonsubbox__body ul li,
+    .accordeonsubbox .accordeonsubbox__body p.subtitle,
+    .accordeonsubbox .accordeonsubbox__body p,
+    .accordeon__body {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:767.8px) {
+
+
+    .mainfirstsection__textbox h1 {
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+
+    .header__rightsect .header__contacts li+li {
+        display: none;
+    }
+
+    .whybaroti {
+        background-size: contain;
+    }
+
+    .services {
+        padding-top: 60px;
+    }
+
+    .servicebox .servicebox__info .arrow {
+        display: none;
+    }
+
+    .servicebox .servicebox__info {
+        width: calc(100% - 25px);
+    }
+
+    .about-baroti__pics .about-baroti__pic .about-baroti__pic-text {
+        max-width: 330px;
+    }
+
+    .contact-formwrap .letsstart-form input:not(input[type=submit]),
+    .contact-formwrap .letsstart-form textarea {
+        height: 42px;
+    }
+
+    .footer__logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer.footer {
+        padding: 40px 0 20px 0;
+    }
+
+    .footer__bottomsect .col-lg-9 {
+        display: none;
+    }
+
+    footer.footer .footer__bottomsect p {
+        margin-top: 0;
+    }
+
+    footer.footer .footer__topsect {
+        padding-bottom: 25px;
+    }
+
+    .menusection__wrapcont .menusection__list ul li a {
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+
+    .menusection__wrapcont .menusection__list ul li:nth-last-child(4) {
+        margin-bottom: 40px;
+    }
+
+    .menusection__wrapcont .menusection__list ul {
+        margin-bottom: 30px;
+    }
+
+    .quotesect .quotesect__left {
+        margin-bottom: 30px;
+    }
+
+    .contact-content,
+    .contformsect {
+        padding: 55px 0;
+    }
+
+    .quotesect .quotesect__left {
+        padding-left: 0;
+    }
+
+    .contformsect h3 {
+        font-size: 1.8rem;
+    }
+
+    .contformsect h3 {
+        margin-bottom: 30px;
+    }
+
+    .contformsect__info .contformsect__infobox {
+        margin-right: 35px;
+    }
+
+    .about-content {
+        padding: 50px 0;
+    }
+
+    .about-content .about-content__ftext {
+        padding-top: 20px;
+    }
+
+    .about-baroti.about-baroti__abpage {
+        padding-bottom: 20px;
+
+        h3 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about-baroti__descrsect {
+        margin-bottom: 20px;
+    }
+
+    .qualities__box {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:575.8px) {
+    .header__rightsect .header__contacts {
+        display: none;
+    }
+
+    .mainfirstsection__textbox h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .whybaroti {
+        padding: 50px 0 30px;
+    }
+
+    .services h3 {
+        max-width: 100%;
+    }
+
+    .services {
+        padding-top: 30px;
+    }
+
+    .services .col-lg-6:nth-child(2n) {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .servicebox .servicebox__info .descr {
+        font-size: 16px;
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .about-baroti__pics .about-baroti__pic.about-baroti__pics-litt {
+        display: none;
+    }
+
+    .about-baroti__pics .about-baroti__pic.about-baroti__pics-big {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .about-baroti__descrsect {
+        margin-bottom: 30px;
+    }
+
+    .about-baroti {
+        padding: 50px 0 60px;
+    }
+
+    .contact-formwrap {
+        padding: 30px 30px;
+    }
+
+    .menusection__wrapcont {
+        padding-top: 60px;
+    }
+
+    .menusection__topnav {
+        top: 0;
+        background-color: #0e0e0e;
+    }
+
+    .menusection__wrapcont .menusection__list ul li a {
+        font-size: 1.6rem;
+    }
+
+    .menusection__wrapcont .menusection__list ul li:nth-last-child(-n+3) {
+        margin-right: 25px;
+    }
+
+    .menusection__wrapcont .menusection__contacts li {
+        margin-bottom: 10px;
+    }
+
+    .welcomescreen h1 {
+        font-size: 2.4rem;
+    }
+
+    .hd-infoblock__descr .title {
+        margin-bottom: 30px;
+    }
+
+    .hd-infoblock__descr .title:after {
+        bottom: -16px;
+    }
+
+    .hd-infoblock {
+        margin-bottom: 30px;
+    }
+
+    .interiordesign-slider .container {
+        left: 15px;
+    }
+
+    .threecolssect {
+        padding-top: 50px;
+    }
+
+    .whyus-section {
+        padding-top: 120px;
+    }
+
+    .benefit__descr h4 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .benefit__icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 10px;
+
+        img {
+            max-width: 45px;
+        }
+    }
+
+    .contact-content,
+    .contformsect {
+        padding-top: 50px;
+    }
+
+    .contformsect h3 {
+        font-size: 1.6rem;
+        line-height: 150%;
+    }
+
+    .contformsect__info {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .contformsect__info .contformsect__infobox {
+        margin-right: 0;
+        margin-bottom: 10px;
+
+        .title {
+            line-height: normal;
+            margin-bottom: 0;
+        }
+    }
+
+    .contformsect-formwrap.contact-formwrap {
+        padding: 30px;
+    }
+
+    .about-baroti.about-baroti__abpage h3 {
+        font-size: 1.6rem;
+    }
+
+    .accordeon__header {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+    .threecolssect h4 {
+        font-size: 1.7rem;
+        margin-bottom: 35px;
+    }
+
+    .hd-infoblock__descr .title,
+    .threecolssect__col .title,
+    .twocolsect .tittext {
+
+        font-size: 1.3rem;
+    }
+
+    .services h3 {
+        margin-bottom: 20px;
+    }
+
+    .about-baroti__descrsect p:last-child {
+        font-size: 16px;
+    }
+
+    .hd-infoblock__descr .descr,
+    .letsworktogether__blackblock .bllink,
+    .threecolssect__col .descr,
+    .twocolsect .descrtext,
+    .whybaroti .description,
+    .whybaroti h6,
+    .whybaroti .description,
+    .whybaroti h6,
+    .whyus-section .sticky-box .descr,
+    .whyus-section .sticky-box .subtitle,
+    .contact-content p,
+    .quotesect ul li,
+    .about-content .about-content__ftext,
+    .services-description p,
+    .accordeonsubbox .accordeonsubbox__body ul li,
+    .accordeonsubbox .accordeonsubbox__body p,
+    .accordeon__body {
+        font-size: 1.1rem;
+    }
+
+}

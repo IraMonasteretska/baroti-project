@@ -1,0 +1,62 @@
+.about-content {
+    padding: 76px 0;
+
+    .about-content__ftext {
+        position: relative;
+        padding-top: 48px;
+        font-size: 1rem;
+        line-height: 160%;
+        text-align: center;
+        color: #212121;
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 48px;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            background: #EF7A00;
+        }
+    }
+}
+
+.about-baroti.about-baroti__abpage {
+    padding-top: 0;
+}
+
+.about-baroti__descrsect {
+    h3 {
+        margin-bottom: 48px;
+        font-weight: bold;
+    }
+}
+
+.qualities__box {
+    text-align: center;
+
+    img {
+        margin-bottom: 14px;
+        max-height: 48px;
+    }
+
+    p {
+        color: #000;
+        font-weight: 500;
+        font-size: 0.9375rem;
+        line-height: 150%;
+        max-width: 274px;
+        margin: 0 auto;
+    }
+}
+
+.letsworktogether.upper {
+    margin-top: -190px;
+}

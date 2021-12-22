@@ -1,0 +1,395 @@
+.mainfirstsection {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        @include coverimg;
+        position: absolute;
+    }
+
+    &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.mainfirstsection__textbox {
+    position: relative;
+    z-index: 2;
+    max-width: 884px;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 64px;
+
+        b {
+            font-weight: 700;
+        }
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        min-height: 48px;
+        padding: 3px 6px 3px 18px;
+        background: #EF7A00;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 150%;
+        text-align: center;
+        transition: .3s;
+
+
+        &:hover {
+            background: #cf6a00;
+            animation: pulse 2s infinite;
+            -webkit-animation: pulse 2s infinite;
+        }
+
+        .icon-mail {
+            font-size: 24px;
+            font-size: 24px;
+            width: 36px;
+            height: 36px;
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 16px;
+        }
+    }
+}
+
+.whybaroti {
+    padding: 100px 0 36px 0;
+    background: url('../img/opac-logo.png') no-repeat top 66px center;
+
+    h3 {
+        margin-bottom: 72px;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 48px;
+            height: 1px;
+            background: #EF7A00;
+            position: absolute;
+            bottom: -34px;
+            left: 0;
+            right: 0;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .description {
+        text-align: center;
+        color: #333;
+        font-weight: 300;
+        font-size: 1.0625rem;
+        line-height: 160%;
+        margin-bottom: 36px;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    h6 {
+        text-align: center;
+        margin: 0 0 36px 0;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.0625rem;
+        line-height: 160%;
+    }
+}
+
+.services {
+    padding: 100px 0 0 0;
+
+    h3 {
+        max-width: 50%;
+        margin-bottom: 36px;
+
+        &:before {
+            content: '/';
+            margin-right: 4px;
+            display: inline-block;
+            color: #EF7A00;
+        }
+    }
+
+    .col-lg-6 {
+        margin-bottom: 30px;
+
+        &:nth-child(even) {
+            transform: translateY(-90px);
+        }
+    }
+
+}
+
+.servicebox {
+    overflow: hidden;
+    position: relative;
+
+    img {
+        @include coverimg;
+        transition: .5s;
+        transform: scale(1.05);
+    }
+
+    .servicebox__info {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: calc(100% - 58px);
+        z-index: 2;
+        background: #fff;
+        padding: 40px 24px 20px 30px;
+
+        h6 {
+            color: #000;
+            font-weight: 500;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            margin-bottom: 14px;
+            max-width: 250px;
+
+            &:before {
+                content: '/';
+                display: inline-block;
+                color: #BDBDBD;
+                margin-right: 6px;
+                font-size: 24px;
+                vertical-align: middle;
+                line-height: 1;
+                margin-top: -2px;
+
+            }
+        }
+
+        .descr {
+            max-width: 250px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9375rem;
+            line-height: 150%;
+            color: #4F4F4F;
+            margin-bottom: 0;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 22px;
+            right: 22px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid #E0E0E0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .3s;
+        }
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.01);
+        }
+
+        .arrow {
+            top: 15px;
+            right: 15px;
+        }
+
+    }
+}
+
+.about-baroti {
+    padding: 80px 0 140px 0;
+
+    h3 {
+        margin-bottom: 54px;
+        font-weight: normal;
+    }
+}
+
+.about-baroti__pics {
+    display: flex;
+    margin-bottom: 64px;
+
+    .about-baroti__pic {
+        height: 408px;
+        position: relative;
+        overflow: hidden;
+
+        >img {
+            @include coverimg;
+        }
+
+        &.about-baroti__pics-big {
+            width: 70%;
+            padding-right: 15px;
+        }
+
+        &.about-baroti__pics-litt {
+            width: 30%;
+            padding-left: 15px;
+        }
+
+        .about-baroti__pic-text {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 26px 40px;
+            font-size: 1.0625rem;
+            line-height: 150%;
+            text-align: center;
+            color: #EF7A00;
+            background: #fff;
+            max-width: 426px;
+            margin: -1px -1px 0 0;
+
+            p {
+                margin: 0;
+            }
+        }
+
+    }
+}
+
+.about-baroti__descrsect {
+    margin-bottom: 48px;
+    text-align: center;
+    color: #333333;
+    font-weight: 300;
+    font-size: 1.0625rem;
+    line-height: 160%;
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.contact-section {
+    padding: 55px 0;
+    background: url('../img/contact-bg.jpg') no-repeat center / cover;
+}
+
+.contact-formwrap {
+    padding: 75px 113px 56px;
+    background: #131313;
+
+    h4 {
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 150%;
+        color: #F2F2F2;
+    }
+
+    .descr {
+        margin-bottom: 48px;
+        font-weight: 300;
+        font-size: 1.0625rem;
+        line-height: 160%;
+        color: #E0E0E0;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .letsstart-form {
+
+        input:not(input[type="submit"]),
+        textarea {
+            width: 100%;
+            background: transparent;
+            color: #F2F2F2;
+            font-size: 1rem;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #828282;
+            height: 48px;
+            margin-bottom: 24px;
+            resize: none;
+
+            &::placeholder {
+                color: #F2F2F2;
+            }
+        }
+
+        textarea {
+            padding-top: 12px;
+        }
+    }
+
+    .letsstart-form__submit {
+        outline: none;
+        min-width: 198px;
+        height: 48px;
+        background: transparent;
+        border: 1px solid #EF7A00;
+        color: #EF7A00;
+        font-size: 1rem;
+        line-height: 160%;
+        position: relative;
+        transition: .3s;
+
+        i {
+            font-size: 24px;
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            &:before {
+                color: #EF7A00;
+                transition: 0.3s;
+            }
+        }
+
+        &:hover {
+            background: #EF7A00;
+            color: #fff;
+
+            i {
+                &:before {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
